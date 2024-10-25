@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(sky.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+/*  */
+
+main {
+  margin: 100px auto;
+  
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+#city-input {
+  /* padding: 10px;
+  font-size: 16px; */
+  outline: none;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 40px;
+  height: 35px;
+color: black;
+  border-radius: 30px;
+  font-size: 17px;
+  background-color:rgba(255, 255, 255, 0.514) ;
+  border-color:transparent;
+}
+
+#search-btn {
+  padding: 12px 15px;
+  border-radius: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.438);
+  color: rgb(0, 0, 0);
+  border: none;
+  text-align: center;
+}
+
+.weather-section {
+  background-color: rgba(255, 255, 255, 0.438);
+  padding: 20px;
+  width: 30%;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.weather-details p {
+  font-size: 20px;
+  margin: 10px 0;
+}
